@@ -4,8 +4,10 @@ import './index.css';
 import TodoList from "./toDo";
 var destination = document.querySelector("#container");
 ReactDOM.render
-(
-        <TodoList/>
-        ,
+        (
+        <div>
+                <TodoList />
+        </div>,
+
         destination
-);
+        );
